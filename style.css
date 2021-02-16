@@ -1,0 +1,74 @@
+* {   
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  text-decoration: none;
+  box-sizing: border-box;
+} 
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+} 
+nav {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  align-items: center;
+  height: 40px;
+  margin: 0px;
+  width: 99vw;
+  align-items: center;
+  background-color: white;
+  margin-top: 0px;
+} 
+.start-nav{
+  display: flex;
+  align-items: center;
+} 
+.fa-bars {
+    padding-left: 25px;
+  margin-right: 0px;
+  color: #606060;
+} 
+.fa-search {
+  margin-left: 20px;
+} 
+.space {
+  margin-left: 30px;
+  height: 10px;
+  text-align: center;
+  color: black;
+}
+.middle-nav {
+  display: flex;
+  text-align: center;
+} 
+.end-nav {
+  display: flex;
+  margin-top: 10px;
+} 
+.subscribe {
+  height: 35px;
+  width: 130px;
+  padding: 5px;
+  background-color: #567B95;
+  margin-right: 10px;
+  border-radius: 5px;
+} 
+.login {
+  height: 35px;
+  width: 50px;
+  padding: 5px;
+  background-color: #567B95;
+  margin-right: 20px;
+  border-radius: 5px;
+} 
+.subs,.log{
+  color: white;
+  text-align: center;
+  padding-top: 5px;
+}
+.topic {
+  margin-top: 100px;
+}
