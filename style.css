@@ -70,5 +70,62 @@ nav {
   padding-top: 5px;
 }
 .topic {
-  margin-top: 100px;
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 50px;
+  text-align: left;  
+} 
+.fonts {
+  border-top-style: solid;
+  border-color: grey;
+  border-width: 1px;
+  text-align: left;
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 10px;
+  padding-top: 10px;
+} 
+.da {
+  margin-right: 10px;
 }
+.cosmos_img {
+  text-align: center;
+  margin-top: 10px;
+}
+.image_dis {
+  width: 900px;
+  text-align: left;
+  margin-right: 100px;
+  margin: 0 auto;
+  color: grey;
+} 
+.imagecosmos {
+  height: 531.55px;
+  width: 945px;
+  text-align: center;
+} 
+.description1 {
+  width: 531.55px;
+  margin: 0 auto;
+  margin-top: 20px;
+  font-family: Georgia, Times, serif;
+} 
+.des1_a {
+  font-weight: bold;
+} 
+.desa_date {
+  font-weight: lighter;
+  color: rgb(53, 47, 47);
+  margin-top: 15px;
+} 
+.full {
+  margin-top: 5px;
+} 
+.full_des1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  line-height: 1.875rem;
+  width: 600px;
+  margin-top: 8px;
+}
+
