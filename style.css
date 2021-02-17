@@ -5,6 +5,12 @@
   text-decoration: none;
   box-sizing: border-box;
 } 
+a{
+  color: black;
+} 
+a:hover{
+  text-decoration: underline;
+} 
 body {
   display: flex;
   flex-direction: column;
@@ -43,6 +49,7 @@ nav {
 .middle-nav {
   display: flex;
   text-align: center;
+  font-family: cursive;
 } 
 .end-nav {
   display: flex;
@@ -164,7 +171,7 @@ nav {
   padding-top: 5px;
   font-size: 13px;
   margin-left: 10px;
-}
+} 
 .fonts_2 {
   width: 600px;
   margin-left: 60px;
@@ -172,5 +179,72 @@ nav {
 } 
 .comment_1 {
   display: flex;
+} 
+.footer_main {
+  background-color: white;
+  width: 1350px;
+} 
+.u_foot {
+  border-top: grey;
+  border-top-style: double;
+  width: 1200px;
+  margin-left: 70px;
+  margin-top: 35px;
+}  
+.u1_foot {
+  display: flex;
+} 
+.homepage {
+  margin-top: 10px;
+  margin-left: 800px;
+  text-align: center;
+  font-size: 10px;
+} 
+.arrow {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 10px;
+  margin-left: 2px;
+} 
+.u2_foot {
+  display: flex;
+} 
+.group {
+  line-height: 20px;
+  width: 200px;
+  text-align: left;
+  margin: 0 auto;
+  margin-right: 50px;
+  font-size: 14px;
+  color: black;
+} 
+.subscribe_3 {
+  border-left-style: solid;
+  padding-left: 20px;
+  border-color: grey;
+  border-left-width: 1px;
+} 
+.border {
+  border-top-style: solid;
+  border-color: grey;
+  border-top-width: 1px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+} 
+.bold1 {
+  font-weight: bold;
+} 
+.spec {
+  line-height: 28px;
 }
-
+.l_foot {
+  border-top-style: solid;
+  border-color: grey;
+  border-top-width: 1px;
+  margin-top: 10px;
+  padding-top: 10px;
+  width: 1200px;
+  margin-left: 70px;
+  font-size: 12px;
+  color: #606060;
+}
