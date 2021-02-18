@@ -120,7 +120,6 @@ nav {
   width: 900px;
   text-align: left;
   margin: 0 auto;
-  margin-right: 100px;
   color: grey;
 }
 
@@ -160,13 +159,40 @@ nav {
 }
 
 .image2 {
-  margin: 0 auto;
   margin-top: 10px;
+  height: 650px;
+  width: 800px;
+  text-align: left;
+  margin-left: 250px;
 }
 
-.image_inflation {
-  width: 720px;
-  height: 650px;
+.image2_t1 {
+  color: rgb(90, 84, 84);
+  font-size: 13px;
+  text-align: left;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  background-color: white;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  font-size: 40px;
+  text-align: left;
+}
+
+.inf_pic {
+  width: 170px;
+  height: 100px;
+}
+
+.inf_picd {
+  font-size: 13px;
 }
 
 .youtube {
@@ -174,8 +200,14 @@ nav {
 }
 
 .image_3 {
+  margin-top: 15px;
   width: 600px;
   height: 400.78px;
+}
+
+.image3 {
+  margin: 0 auto;
+  width: 600px;
 }
 
 .less_des {
@@ -215,6 +247,7 @@ nav {
 
 aside {
   position: absolute;
+  float: right;
   margin-top: 1500px;
   margin-left: 1080px;
 }
@@ -255,6 +288,7 @@ aside {
   display: flex;
   padding: 3px;
   margin-top: 10px;
+  width: 830px;
 }
 
 .apic_d {
@@ -369,4 +403,22 @@ aside {
 
 .ab {
   margin-left: 6px;
+}
+
+.fixed_f {
+  position: fixed;
+  position: sticky;
+  bottom: 0px;
+  left: 0px;
+  border-top: black;
+  border-top-style: solid;
+  border-top-width: 1px;
+  width: 1380px;
+  background-color: white;
+}
+
+.fixed_ft {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
