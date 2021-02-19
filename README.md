@@ -10,6 +10,13 @@ Original Design link : [nytimes.com](https://www.nytimes.com/2014/03/18/science/
 
 Project Design Screenshot : ![Project Design](img/screenshot.PNG)
 
+# Instruction
+
+- Clonning the project: git clone (https://github.com/Deepakdanger/New_yorkcity.git)
+- To open folder : cd .\New_yorkcity\
+- link to open page locally: (file:///F:/1234Microverse/New_yorkcity/index.html)
+        or live server:(http://127.0.0.1:5500/New_yorkcity/)
+
 # Github link:
 
 For the: [Github-link](https://github.com/Deepakdanger/New_yorkcity/tree/New_york1)
